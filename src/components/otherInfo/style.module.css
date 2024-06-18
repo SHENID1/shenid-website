@@ -1,0 +1,22 @@
+
+.wrapper {
+    width: 100%;
+    height: max-content;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    padding: 10px;
+    width: clamp(200px, 60vw, 1000px);
+    border-radius: 10px;
+    background-color: rgba(200, 200, 200, 0.74);
+}
+
+.info {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

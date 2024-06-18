@@ -1,0 +1,13 @@
+.cont {
+    width: max-content;
+    height: max-content;
+    padding: 20px 20px 0 20px;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}

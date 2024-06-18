@@ -1,12 +1,18 @@
 import React from 'react';
-import AnimatedLogo from "./components/Logo/AnimatedLogo";
 import "./index.css"
+import Video from "./components/video/video";
+import Header from "./components/contHeader/Header";
+import OtherTemplate from "./components/otherInfo/otherTemplate";
+
 function App() {
-  return (
-    <div>
-      <AnimatedLogo/>
-    </div>
-  );
+    return (
+        <div>
+            <Video/>
+            <Header/>
+            <OtherTemplate/>
+
+        </div>
+    );
 }
 
 export default App;

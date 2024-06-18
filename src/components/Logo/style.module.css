@@ -5,17 +5,19 @@
 
 .backlogo {
     font-family: ll, monospace;
-    font-size: 100px;
+    font-size: clamp(80px, 9vw, 200px);
+
 }
 
 .cont {
     width: 100%;
     height: max-content;
-    background-color: rgba(117, 117, 117, 0.33);
-    padding: 25px;
+    /*background-color: rgba(117, 117, 117, 0.33);*/
+    /*padding: 15px;*/
     display: flex;
     justify-content: center;
     user-select: none;
+    box-sizing: border-box;
 }
 
 .backimg {
@@ -25,8 +27,14 @@
     background-clip: text;
     background-size: 3000px 3000px;
     animation: wave 15s infinite linear;
+    transition: all 1s ease;
 }
-
+.backimg:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: #fdffb1;
+    text-shadow: #FC0 1px 0 15px;
+}
 @keyframes wave {
     from {
         background-position-x: 0;

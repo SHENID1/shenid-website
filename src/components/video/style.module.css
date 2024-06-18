@@ -1,0 +1,21 @@
+.background {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.background:before {
+    box-sizing: border-box;
+}
+.video {
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+}

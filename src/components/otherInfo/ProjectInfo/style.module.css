@@ -1,0 +1,12 @@
+.pr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 29px;
+}

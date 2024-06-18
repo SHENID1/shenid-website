@@ -1,0 +1,27 @@
+.cont {
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    display: flex;
+
+}
+.img {
+    width: clamp(200px, 23vw, 350px);
+    height: auto;
+    transition: scale 0.7s ease;
+    user-select: none;
+}
+.img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+@keyframes scale {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 1.1;
+    }
+}
