@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    padding: 10px;
+    background: rgba(200, 200, 200, 0.74);
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.ico {
+    font-size: 50px;
+    transition: all 0.7s ease;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.ico:hover {
+    cursor: pointer;
+    /*opacity: 0.7;*/
+    scale: 1.07;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.epicg {
+    font-size: 50px;
+    transition: all 0.7s ease;
+    margin-right: 10px;
+    width: auto;
+    height: 50px;
+}
+.epicg:hover {
+    cursor: pointer;
+    /*opacity: 0.7;*/
+    scale: 1.07;
+}

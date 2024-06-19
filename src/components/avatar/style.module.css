@@ -12,6 +12,7 @@
     height: auto;
     transition: scale 0.7s ease;
     user-select: none;
+    border-radius: 50%;
 }
 .img:hover {
     scale: 1.1;

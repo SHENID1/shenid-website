@@ -1,6 +1,8 @@
 import React from 'react';
 import cl from "./style.module.css"
-import ProjectInfo from "./ProjectInfo/ProjectInfo";
+import Links from "./Links/Links";
+// import ProjectInfo from "./ProjectInfo/ProjectInfo";
+
 
 const OtherTemplate = () => {
     return (
@@ -10,8 +12,9 @@ const OtherTemplate = () => {
                     17 y.o.<br/>
                     Frontend developer
                 </div>
-                <br/>
-                <ProjectInfo/>
+                {/*<br/>*/}
+                {/*<ProjectInfo/>*/}
+                <Links/>
             </div>
         </div>
     );

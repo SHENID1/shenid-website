@@ -9,13 +9,14 @@
 }
 .container {
     padding: 10px;
-    width: clamp(200px, 60vw, 1000px);
+    /*width: clamp(200px, 49vw, 650px);*/
+    width: max-content;
     border-radius: 10px;
     background-color: rgba(200, 200, 200, 0.74);
 }
 
 .info {
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;

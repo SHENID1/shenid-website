@@ -1,12 +1,44 @@
 .pr {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: rgba(200, 200, 200, 0.74);
+    border-radius: 10px;
+    transition: scale 0.7s ease;
 }
+
+.pr:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
 .header {
     color: #000000;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 29px;
+    font-size: clamp(20px, 3vw, 35px);
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.prName {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: clamp(20px, 2.5vw, 35px);
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
 }
