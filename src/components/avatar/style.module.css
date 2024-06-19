@@ -26,3 +26,8 @@
         scale: 1.1;
     }
 }
+@media (max-height: 700px) {
+    .cont {
+        padding-top: 0;
+    }
+}

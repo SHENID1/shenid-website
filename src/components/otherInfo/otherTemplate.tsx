@@ -1,7 +1,7 @@
 import React from 'react';
 import cl from "./style.module.css"
 import Links from "./Links/Links";
-// import ProjectInfo from "./ProjectInfo/ProjectInfo";
+import ProjectInfo from "./ProjectInfo/ProjectInfo";
 
 
 const OtherTemplate = () => {
@@ -13,7 +13,7 @@ const OtherTemplate = () => {
                     Frontend developer
                 </div>
                 {/*<br/>*/}
-                {/*<ProjectInfo/>*/}
+                <ProjectInfo/>
                 <Links/>
             </div>
         </div>

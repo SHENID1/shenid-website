@@ -6,7 +6,6 @@
 .backlogo {
     font-family: ll, monospace;
     font-size: clamp(80px, 9vw, 200px);
-
 }
 
 .cont {
@@ -43,3 +42,4 @@
         background-position-x: 3000px;
     }
 }
+

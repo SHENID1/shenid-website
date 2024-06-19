@@ -1,36 +1,40 @@
 .container {
     display: flex;
     padding: 10px;
-    background: rgba(200, 200, 200, 0.74);
+    background-color: rgb(147 0 255 / 53%);
     margin-top: 20px;
     border-radius: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 .ico {
-    font-size: 50px;
-    transition: all 0.7s ease;
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
+
+    /*margin-right: 10px;*/
+    font-size: 90px;
+    width: 90px;
+    height: 90px;
 }
-.ico:hover {
-    cursor: pointer;
-    /*opacity: 0.7;*/
-    scale: 1.07;
-}
+
 a {
     text-decoration: none;
     color: inherit;
 }
-.epicg {
-    font-size: 50px;
+.white{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: max-content;
+    height: max-content;
     transition: all 0.7s ease;
-    margin-right: 10px;
-    width: auto;
-    height: 50px;
 }
-.epicg:hover {
+.white:hover {
     cursor: pointer;
-    /*opacity: 0.7;*/
     scale: 1.07;
+}
+@media (max-width: 484px) {
+    .ico {
+        font-size: clamp(30px, 10vw, 90px);
+        width: clamp(30px, 10vw, 90px);
+        height: clamp(30px, 10vw, 90px);
+    }
 }

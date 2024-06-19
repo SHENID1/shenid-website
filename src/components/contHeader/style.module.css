@@ -11,3 +11,8 @@
     flex-direction: column;
 
 }
+@media (max-height: 720px) {
+    .cont {
+        padding: 2px 20px 0 20px;
+    }
+}
