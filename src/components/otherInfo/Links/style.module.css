@@ -10,9 +10,9 @@
 .ico {
 
     /*margin-right: 10px;*/
-    font-size: 90px;
-    width: 90px;
-    height: 90px;
+    font-size: 80px;
+    width: 80px;
+    height: 80px;
 }
 
 a {
@@ -26,6 +26,7 @@ a {
     width: max-content;
     height: max-content;
     transition: all 0.7s ease;
+    user-select: none;
 }
 .white:hover {
     cursor: pointer;

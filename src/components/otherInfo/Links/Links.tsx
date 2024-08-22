@@ -13,11 +13,21 @@ const Links: FC = () => {
         }).then();
     };
 
-    function CopyText(name: string): void {
-        navigator.clipboard.writeText(name).then(function () {
-            success(name);
-        });
-    }
+
+
+    const unsecuredCopyToClipboard = (text: string) => { const textArea = document.createElement("textarea"); textArea.value=text; document.body.appendChild(textArea); textArea.focus();textArea.select(); try{document.execCommand('copy')}catch(err){console.error('Unable to copy to clipboard',err)}document.body.removeChild(textArea)};
+
+    const CopyText = (content: string) => {
+        if (window.isSecureContext && navigator.clipboard) {
+            navigator.clipboard.writeText(content).then(function () {
+                success(content);
+            });
+        } else {
+            unsecuredCopyToClipboard(content)
+            success(content);
+        }
+    };
+
 
     return (
         <div className={cl.container}>

@@ -8,7 +8,7 @@
 
 }
 .img {
-    width: clamp(200px, 23vw, 350px);
+    width: clamp(200px, 15vw, 350px);
     height: auto;
     transition: scale 0.7s ease;
     user-select: none;
